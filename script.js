@@ -35,7 +35,7 @@ function calculate() {
     } else if (bmi >= 35) {
         result = 'You are Extremely obese';
     }
-
+ 
     resultArea.style.display = "block";
     document.querySelector(".comment").innerHTML = 'You Are <span id="comment"> ${result}</span>';
     document.querySelector("#result").innerHTML = bmi.toFixed(2);
