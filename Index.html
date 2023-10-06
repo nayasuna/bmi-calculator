@@ -10,8 +10,32 @@
 <body>
     <div class="container">
         <div class="box">
+            <h1>Check your BMI</h1>
+            <p> Enter your weight and height below to check your BMI results</p>
+
+            <div class="content">
+                <div class="containerHW">
+                    <div class="inputWeight">
+                        <p>Put your weight in here (KG)</p>
+                        <input id="weight" type="number" placeholder="">
+                    </div>
+
+                    <div class="inputHeight">
+                        <p>And your height in here (CM)</p>
+                        <input id="height" type="number" placeholder="">
+                    </div>
+                </div>
+
+                <button class="calculate" id="submit" onclick="calculate();">Calculate BMI</button>           
+             </div>
+
+              <div class="result">
+              <p> Your BMI is</p>
+              <div id="result">00.00</div>
+              <p class="comment"></p>
+            </div>
            
-    </div>
+       </div>
  </div>
 
     <!--Link to js-->

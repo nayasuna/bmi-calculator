@@ -8,3 +8,125 @@
     font-family: 'Poppins', sans-serif;
 }
     
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:blanchedalmond;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 2px 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+ }
+ p {
+    color: black;
+    font-size: 15px;
+    padding: 5px 0px;
+ }
+ .content {
+    padding: 0 30px;
+    display: contents;
+ }
+ .inputWeight {
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px 0px;
+ }
+ .inputWeight p {
+    font-weight: 100;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+ }
+.inputHeight {
+    border-radius: 40px;
+    width: 300px;
+    padding: 10px 0px;
+}
+.inputHeight p {
+    font-weight: 100;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+button.calculate {
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    background:  rgb(126, 97, 254);
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 10px 0;
+    width: 90px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+button.calculate:hover {
+    background:  rgb(152, 135, 227);
+}
+
+.result p {
+    font-weight: 200;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    text-align: left;
+}
+.result #result {
+    text-align: left;
+    margin: 0 auto;
+    color: black;
+    font-weight: bolder;
+    width: 200px;
+    height:100px;
+    display: inline-flex;
+}
+#comment{
+    color: black;
+    font-weight: 700;
+    text-align: left;
+}
+.comment {
+    color: black;
+    padding: 5px;
+    display: none;
+    text-align: left;
+}
+
+
+@media (max-width: 700px){
+
+
+    .box {
+        width: 380px;
+    }
+
+    .inputWeight p  {
+
+        font-size: 18px;
+    }
+    .inputHeight p  {
+
+        font-size: 18px;
+    }
+    
+
+    .inputHeight p, .inputWeight p {
+        font-size: 14px;
+    }
+
+    .input input, .inputHeight input, .inputWeight input{
+        font-size: 24px;
+    }
+}
+ 
